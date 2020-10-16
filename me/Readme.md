@@ -1,4 +1,6 @@
 How to set up :
+* Read file registration.php to create Vendor and ModuleName 
+
 - B1: git clone https://github.com/butdepzai98/AHT-me.git
 - B2:
     Create Block by <br>
