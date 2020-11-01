@@ -33,5 +33,18 @@ How to set up :
     
 - B8:
     Setup Grunt <br>
+    me: {
+        area: 'frontend',
+        name: 'AHT/me',
+        locale: 'en_US',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+            'css/email',
+            'css/email-inline'
+        ],
+        dsl: 'less'
+    }, <br>
+    
     sudo chmod -R 777 * && rm -rf var/cache var/page_cache var/view_preprocessed/frontend pub/static/frontend/AHT && sudo bin/magento s:s:d -f --theme AHT/me && sudo chmod -R 777 * && grunt clean:me && grunt exec:me && grunt less:me && sudo bin/magento c:c && sudo chmod -R 777 * 
     
